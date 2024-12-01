@@ -5,7 +5,13 @@ class TheAppTheme {
 
 static ThemeData themeData = ThemeData(
   scaffoldBackgroundColor: TheAppColors.theBackgroundColor,
+bottomNavigationBarTheme: BottomNavigationBarThemeData(
+  type: BottomNavigationBarType.fixed, // by putting this the item size become fixed and background color appears
+  backgroundColor: TheAppColors.theLightBackgroundColor,
+  unselectedItemColor:TheAppColors.theSecondaryColor ,
+  selectedItemColor:TheAppColors.thePrimaryColor ,
 
+)
 
 );
 }
