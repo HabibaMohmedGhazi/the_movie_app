@@ -1,12 +1,12 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:the_movie_app/the_app_ui/the_app_screens/the_browse_screen.dart';
+import 'package:the_movie_app/the_app_ui/the_app_tabs/the_browse_tab.dart';
 import 'package:the_movie_app/the_app_ui/the_app_screens/the_home_screen.dart';
-import 'package:the_movie_app/the_app_ui/the_app_screens/the_movie_details.dart';
-import 'package:the_movie_app/the_app_ui/the_app_screens/the_search_screen.dart';
+import 'package:the_movie_app/the_app_ui/the_app_tabs/the_movie_tab.dart';
+import 'package:the_movie_app/the_app_ui/the_app_tabs/the_search_tab.dart';
 import 'package:the_movie_app/the_app_ui/the_app_screens/the_splash_screen.dart';
-import 'package:the_movie_app/the_app_ui/the_app_screens/the_watchlist_screen.dart';
+import 'package:the_movie_app/the_app_ui/the_app_tabs/the_watchlist_tab.dart';
 
 void main(){
   runApp(const MyApp());
@@ -21,10 +21,10 @@ class MyApp extends StatelessWidget {
       routes: {
         TheSplashScreen.theRouteName:(_)=>const TheSplashScreen(),
         TheHomeScreen.theRouteName:(_)=>const TheHomeScreen(),
-        TheMovieDetails.theRouteName:(_)=>const TheMovieDetails(),
-        TheSearchScreen.theRouteName:(_)=>const TheSearchScreen(),
-        TheBrowseScreen.theRouteName:(_)=>const TheBrowseScreen(),
-        TheWatchlistScreen.theRouteName:(_)=>const TheWatchlistScreen(),
+        TheMovieDetailsTab.theRouteName:(_)=>const TheMovieDetailsTab(),
+        TheSearchTab.theRouteName:(_)=>const TheSearchTab(),
+        TheBrowseTab.theRouteName:(_)=>const TheBrowseTab(),
+        TheWatchlistTab.theRouteName:(_)=>const TheWatchlistTab(),
 
       },
       initialRoute:TheSplashScreen.theRouteName ,

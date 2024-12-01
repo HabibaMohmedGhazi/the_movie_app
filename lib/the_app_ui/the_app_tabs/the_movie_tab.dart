@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class TheMovieDetails extends StatelessWidget {
-  static String theRouteName = 'TheMovieDetails';
+class TheMovieDetailsTab extends StatelessWidget {
+  static String theRouteName = 'TheMovieDetailsTab';
 
-  const TheMovieDetails({super.key});
+  const TheMovieDetailsTab({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class TheSearchScreen extends StatelessWidget {
-  static String theRouteName = 'TheSearchScreen';
+class TheSearchTab extends StatelessWidget {
+  static String theRouteName = 'TheSearchTab';
 
-  const TheSearchScreen({super.key});
+  const TheSearchTab({super.key});
 
   @override
   Widget build(BuildContext context) {

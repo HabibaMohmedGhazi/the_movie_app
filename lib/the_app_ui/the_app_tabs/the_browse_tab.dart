@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-class TheBrowseScreen extends StatelessWidget {
-  static String theRouteName = 'TheBrowseScreen';
-  const TheBrowseScreen({super.key});
+class TheBrowseTab extends StatelessWidget {
+  static String theRouteName = 'TheBrowseTab';
+  const TheBrowseTab({super.key});
 
   @override
   Widget build(BuildContext context) {

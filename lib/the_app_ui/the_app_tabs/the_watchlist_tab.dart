@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class TheWatchlistScreen extends StatelessWidget {
-  static String theRouteName = 'TheWatchlistScreen';
+class TheWatchlistTab extends StatelessWidget {
+  static String theRouteName = 'TheWatchlistTab';
 
-  const TheWatchlistScreen({super.key});
+  const TheWatchlistTab({super.key});
 
   @override
   Widget build(BuildContext context) {
