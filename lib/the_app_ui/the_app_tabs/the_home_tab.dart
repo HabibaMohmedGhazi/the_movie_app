@@ -1,5 +1,8 @@
 
 import 'package:flutter/material.dart';
+import 'package:the_movie_app/the_app_ui/the_app_widgets/the_home_widgets/the_movies_trailer.dart';
+import 'package:the_movie_app/the_app_ui/the_app_widgets/the_home_widgets/the_new_releases_list_view.dart';
+import 'package:the_movie_app/the_app_ui/the_app_widgets/the_home_widgets/the_recomended_list_view.dart';
 
 class TheHomeTab extends StatefulWidget {
   static String theRouteName = 'TheHomeTab';
@@ -13,8 +16,14 @@ class TheHomeTab extends StatefulWidget {
 class _TheHomeTabState extends State<TheHomeTab> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder(
-      color: Colors.white,
+    return const Column(
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      children: [
+        MoviesTrailer(),
+        TheNewReleasesListView(),
+        SizedBox(height: 2,),
+        TheRecommendedListView()
+      ],
     );
   }
 }
